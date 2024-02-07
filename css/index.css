@@ -1,0 +1,395 @@
+.col-white{
+  color: white;
+}
+
+
+
+/* Reseting css */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto Condensed", sans-serif;
+  /* overflow: hidden; */
+}
+/* Top Section */
+.top-container {
+  /* height: 100vh; */
+  background-image: url(../images/bg.webp);
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 0px 100px 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(58, 58, 58);
+  padding: 0px 30px;
+}
+.navbar .logo i {
+  font-size: 30px;
+  color: white;
+  /* filter: invert(100); */
+  padding: 10px;
+}
+.navbar .nav-links {
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+}
+.navbar .nav-links li a {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+.navbar .search i {
+  font-size: 30px;
+  color: white;
+  /* filter: invert(100); */
+  padding: 10px;
+}
+.hide-large {
+  display: none;
+}
+
+.inner-container {
+  padding: 15% 30px 5% 30px;
+}
+.inner-container .para {
+  width: 50%;
+}
+
+/* Dance Tour */
+.dance {
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/1e.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.dance .para {
+  width: 60%;
+  padding: 20px 10px;
+  text-align: center;
+}
+.dance .inner-dance {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Setting Cards */
+.dance-card {
+  margin: 10px 20px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 20px 0px;
+}
+.dance-card img {
+  width: -webkit-fill-available;
+}
+.dance-card .para {
+  padding: 5px 8px;
+  width: 100%;
+}
+
+/* Pricing section */
+.pricing {
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing .para {
+  width: 60%;
+  padding: 20px 10px;
+  text-align: center;
+}
+.pricing .inner-price {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.price-card {
+  margin: 10px 20px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  border-radius: 5px;
+}
+.price-card img {
+  width: 100px;
+  padding: 50px 0px;
+  filter: invert(100);
+}
+.price-card .para {
+  padding: 10px 8px;
+  width: 100%;
+}
+/* Amazing best  */
+.amazing,
+.best {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner-sec {
+  width: 50%;
+}
+.inner-sec img {
+  width: 100%;
+}
+.sec-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 10%;
+}
+/* Statistics */
+.stat {
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.stat .para {
+  width: 60%;
+  text-align: center;
+}
+.inner-stat {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-around;
+  padding: 75px 0px 40px 0px;
+}
+.in-inner {
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.in-inner .primary-heading,
+.in-inner .para {
+  padding: 5px;
+  margin: 5px;
+}
+/* Section */
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 40px;
+  background-color: rgba(255, 81, 0, 0.6);
+  background-image: url(../images/bg.webp);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  text-align: center;
+}
+.section .secondary-heading {
+  text-transform: lowercase;
+  font-weight: lighter;
+  text-align: center;
+  width: 60%;
+}
+/* Subscribe */
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/1e.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 40px 0px;
+}
+.subscribe .para {
+  width: 60%;
+  text-align: center;
+}
+.subscribe .txt-box {
+  display: flex;
+  margin: 40px 0px;
+}
+.subscribe .txt {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 6px 30px;
+  margin: 20px 0px;
+  border: none;
+  color: grey;
+}
+.subscribe .btn {
+  padding: 6px 30px;
+  border-radius: 0px;
+}
+/* footer */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.special-footer {
+  width: 40%;
+}
+.in-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px;
+}
+.in-footer .para {
+  padding: 4px 0px;
+}
+.in-in-footer {
+  display: flex;
+}
+.in-in-footer i{
+  font-size: 30px;
+  color: white;
+  /* filter: invert(100); */
+  margin: 5px;
+}
+
+/* General CSS Styling */
+.main-heading {
+  color: white;
+  font-size: 80px;
+  padding: 10px 0px;
+  font-weight: bold;
+}
+.primary-heading {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 0px;
+}
+.secondary-heading {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 0px;
+}
+.para {
+  color: white;
+  font-size: 18px;
+  padding: 20px 0px;
+}
+.btn {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 30px;
+  margin: 20px 0px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Color Properties */
+.orange {
+  background-color: rgb(255, 81, 0);
+}
+.grey {
+  background-color: rgb(58, 58, 58);
+}
+
+/* Small Screens  */
+@media only screen and (max-width: 700px) {
+  .top-container {
+    background-image: url(../images/amazing.webp);
+    text-align: center;
+    height: fit-content;
+  }
+  .top-container .para {
+    width: auto;
+  }
+  .navbar {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    padding: 0px 15px;
+  }
+
+  .hide-large {
+    display: block;
+    padding: 0px 15px;
+  }
+  .hide-small {
+    display: none;
+  }
+
+  .dance,
+  .pricing {
+    text-align: center;
+  }
+  .inner-price,
+  .inner-dance {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .dance-card,
+  .price-card {
+    width: 80%;
+    overflow: hidden;
+  }
+
+  .subscribe .txt-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .txt-box .txt,
+  .txt-box .btn {
+    margin: 0px;
+    text-align: center;
+    width: 90%;
+  }
+  .special-footer {
+    width: auto;
+  }
+
+  .amazing,
+  .best {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .inner-sec {
+    width: 80%;
+  }
+  .sec-txt {
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 5px;
+  }
+  .sec-txt .para {
+    padding: 0px;
+  }
+}
